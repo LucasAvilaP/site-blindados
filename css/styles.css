@@ -199,7 +199,25 @@ small{ color:var(--muted); }
   background:
     linear-gradient(120deg, rgba(0,0,0,.25), rgba(0,0,0,.75)),
     url("./../assets/img/hero.jpg") center/cover no-repeat;
+    overflow: hidden;
+    border-radius: 8px 8px 0 0;
+
+    /* escolha UM dos dois abaixo: */
+
+    /* Opção A: trava uma altura bonita e responsiva */
+    height: clamp(220px, 30vw, 360px);
+
+    /* Opção B: se você preferir proporção fixa (padrão “hero”) */
+    /* aspect-ratio: 16 / 9; */
 }
+
+.hero-media img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;   /* <-- isso elimina a faixa preta */
+  display: block;
+}
+
 .panel-inner{
   padding: 1.1rem 1.1rem 1.2rem;
 }
