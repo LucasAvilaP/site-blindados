@@ -488,7 +488,6 @@ small{ color:var(--muted); }
     border-bottom:1px solid var(--border);
   }
 }
-<<<<<<< HEAD
 
 /* ===== Seção: Por que blindado ===== */
 .section-choose{
@@ -666,5 +665,19 @@ small{ color:var(--muted); }
     grid-template-columns: 1fr;
   }
 }
-=======
->>>>>>> fe9af260f754a405fc59d8ba32bf822f0dfacfb4
+.brand-logo{
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+  display: block;
+
+  /* remove a moldura */
+  background: transparent;
+  border: 0;
+  padding: 0;
+  border-radius: 0;
+  box-shadow: none;
+
+  /* opcional: só um “drop shadow” suave pra integrar no fundo */
+  filter: drop-shadow(0 6px 14px rgba(0,0,0,.45));
+}
