@@ -161,6 +161,8 @@ small{ color:var(--muted); }
   color: var(--muted);
   margin:0;
   max-width: 80ch;
+  margin-bottom: 2rem;
+  line-height: 1.6;
 }
 
 /* Hero (home) */
