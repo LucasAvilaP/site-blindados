@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Privacidade • Blindados Premium</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/styles.css" />
+</head>
+<body>
+<header class="header">
+  <div class="container">
+    <nav class="nav">
+      <a class="brand" href="./index.html"><div class="brand-mark"></div><div><strong>Blindados Premium</strong><span>RJ e região</span></div></a>
+      <div class="menu" data-menu>
+        <a href="./frota.html">Frota</a><a href="./servicos.html">Serviços</a><a href="./faq.html">FAQ</a><a href="./contato.html">Contato</a>
+      </div>
+      <div class="nav-cta">
+        <button class="hamburger" data-hamburger aria-label="Abrir menu" aria-expanded="false">☰</button>
+        <a class="btn btn-primary" data-wa data-wa-message="Olá! Tenho uma dúvida sobre privacidade/LGPD.">WhatsApp</a>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="page-hero">
+    <div class="container">
+      <div class="kicker">🔒 LGPD</div>
+      <h1 class="h1">Política de privacidade</h1>
+      <p class="lead">Usamos seus dados apenas para atendimento e cotação. Sem spam e sem venda de informações.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="card">
+        <h3>1) Quais dados podem ser coletados</h3>
+        <p>Nome, telefone, período, local e preferências (modelo/motorista) informados pelo usuário via WhatsApp ou formulário.</p>
+        <div class="divider"></div>
+
+        <h3>2) Finalidade</h3>
+        <p>Atender solicitações, enviar cotação, alinhar logística e confirmar condições do serviço.</p>
+        <div class="divider"></div>
+
+        <h3>3) Compartilhamento</h3>
+        <p>Não vendemos dados. Compartilhamento pode ocorrer apenas quando necessário para execução do serviço (ex.: logística), sempre de forma mínima e justificada.</p>
+        <div class="divider"></div>
+
+        <h3>4) Contato</h3>
+        <p>Solicitações sobre dados podem ser feitas pelo WhatsApp na página de contato.</p>
+
+        <div style="margin-top:1rem;">
+          <a class="btn btn-primary" href="./contato.html">Falar conosco</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div><b style="color:var(--text);">Blindados Premium</b><br><small>RJ e região</small></div>
+      <div style="text-align:right;"><a href="./termos.html">Termos</a> • <a href="./contato.html">Contato</a></div>
+    </div>
+    <div style="margin-top:1rem; font-size:.9rem;"><small>© <span id="year"></span> Blindados Premium.</small></div>
+  </div>
+</footer>
+
+<script src="./js/app.js"></script>
+<script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>

@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Termos • Blindados Premium</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/styles.css" />
+</head>
+<body>
+<header class="header">
+  <div class="container">
+    <nav class="nav">
+      <a class="brand" href="./index.html"><div class="brand-mark"></div><div><strong>Blindados Premium</strong><span>RJ e região</span></div></a>
+      <div class="menu" data-menu>
+        <a href="./frota.html">Frota</a><a href="./servicos.html">Serviços</a><a href="./faq.html">FAQ</a><a href="./contato.html">Contato</a>
+      </div>
+      <div class="nav-cta">
+        <button class="hamburger" data-hamburger aria-label="Abrir menu" aria-expanded="false">☰</button>
+        <a class="btn btn-primary" data-wa data-wa-message="Olá! Tenho uma dúvida sobre termos/condições.">WhatsApp</a>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="page-hero">
+    <div class="container">
+      <div class="kicker">📄 Legal</div>
+      <h1 class="h1">Termos de uso</h1>
+      <p class="lead">Este site tem finalidade informativa e de contato para cotação via WhatsApp.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="card">
+        <h3>1) Natureza do serviço</h3>
+        <p>As condições de locação (período, modelo, motorista, logística, valores e demais regras) são confirmadas no momento da reserva.</p>
+        <div class="divider"></div>
+
+        <h3>2) Informações e disponibilidade</h3>
+        <p>Modelos e configurações podem variar conforme disponibilidade. Imagens podem ser ilustrativas.</p>
+        <div class="divider"></div>
+
+        <h3>3) Contato</h3>
+        <p>Para dúvidas ou solicitações, utilize o WhatsApp na página de contato.</p>
+
+        <div style="margin-top:1rem;">
+          <a class="btn btn-primary" href="./contato.html">Ir para contato</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div><b style="color:var(--text);">Blindados Premium</b><br><small>RJ e região</small></div>
+      <div style="text-align:right;"><a href="./privacidade.html">Privacidade</a> • <a href="./contato.html">Contato</a></div>
+    </div>
+    <div style="margin-top:1rem; font-size:.9rem;"><small>© <span id="year"></span> Blindados Premium.</small></div>
+  </div>
+</footer>
+
+<script src="./js/app.js"></script>
+<script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>
