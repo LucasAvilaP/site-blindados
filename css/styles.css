@@ -488,6 +488,7 @@ small{ color:var(--muted); }
     border-bottom:1px solid var(--border);
   }
 }
+<<<<<<< HEAD
 
 /* ===== Seção: Por que blindado ===== */
 .section-choose{
@@ -665,3 +666,5 @@ small{ color:var(--muted); }
     grid-template-columns: 1fr;
   }
 }
+=======
+>>>>>>> fe9af260f754a405fc59d8ba32bf822f0dfacfb4
